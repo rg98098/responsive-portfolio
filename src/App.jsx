@@ -1,11 +1,12 @@
 import React from 'react'
+import { Profile } from './components/Home/Profile'
 import './styles/main.scss'
 
 const App = () => {
 
   return (
     <div>
-      Hello World
+      <Profile/>
     </div>
   )
 }
