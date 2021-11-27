@@ -1,13 +1,13 @@
 import React from 'react'
-import { Profile } from './components/Home/Profile'
 import './styles/main.scss'
 import './App.scss'
+import { Container } from './components/Container'
 
 const App = () => {
 
   return (
     <div>
-      <Profile/>
+      <Container/>
     </div>
   )
 }
