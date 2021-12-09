@@ -16,7 +16,7 @@ export default class ScrollService {
     contactMeScreen.scrollIntoView({behavior: 'smooth'})
   }
 
-  scrollToHireMe = () => {
+  scrollToHome = () => {
     let homeScreen = document.getElementById('Home')
     if(!homeScreen) return
     homeScreen.scrollIntoView({behavior: 'smooth'})

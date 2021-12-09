@@ -2,6 +2,7 @@ import {Home} from '../components/Home/Home'
 import {AboutMe} from '../components/AboutMe/AboutMe'
 import { Resume } from '../components/Resume/Resume'
 import { Testimonial } from '../components/Testimonial/Testimonial'
+import { ContactMe } from '../components/ContactMe/ContactMe'
 
 export const TOTAL_SCREENS = [
   {
@@ -19,7 +20,12 @@ export const TOTAL_SCREENS = [
   {
     screen_name: 'Testimonial',
     component: Testimonial
+  },
+  {
+    screen_name: 'ContactMe',
+    component: ContactMe
   }
+
 ]
 
 export const GET_SCREEN_INDEX = (screen_name) => {
